@@ -1,0 +1,20 @@
+.main{
+    background-image: url(../../../../../public//img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+
+@media (min-width:1024px) {
+    .main{
+        
+        min-height: 100vh;
+      
+    }
+}

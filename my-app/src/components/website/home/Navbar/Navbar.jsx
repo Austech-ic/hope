@@ -45,28 +45,30 @@ const Navbar = () => {
               </Link>
             </li>
             <li className={styles.item}>
-              <Link href={`/servicespage`} className={styles.link}>
+              <Link href={`/`} className={styles.link}>
               About
               </Link>
             </li>
             <li className={styles.item}>
-              <Link href={`/aboutus`} className={styles.link}>
+              <Link href={`/`} className={styles.link}>
              Programs
               </Link>
             </li>
             <li className={styles.item}>
-              <Link href={`/contactus`} className={styles.link}>
+              <Link href={`/`} className={styles.link}>
               Contact 
               </Link>
             </li>
       
             <div className=' flex flex-col lg:flex-row md:pb-[20px] md:gap-[10px]'>
-          <Link href={`/aboutus`} className={styles.link}>
+          <Link href={`/authpage`} className={styles.link}>
           Login
             </Link>
         
-            <button className='bg-orange-400 text-white rounded px-2 py-2'>
+            <Link href={`/authpage`} className={styles.link}>
+                <button className='bg-orange text-white rounded px-2 py-2'>
                   Register</button>
+              </Link>
           </div>
            
           </ul>
@@ -83,27 +85,27 @@ const Navbar = () => {
             </Link>
           </li>
           <li className={styles.item}>
-            <Link href={`/servicespage`} className={styles.link}>
+            <Link href={`/`} className={styles.link}>
             About
             </Link>
           </li>
           <li className={styles.item}>
-            <Link href={`/aboutus`} className={styles.link}>
+            <Link href={`/`} className={styles.link}>
            Programs
             </Link>
           </li>
           <li className={styles.item}>
-            <Link href={`/contactus`} className={styles.link}>
+            <Link href={`/`} className={styles.link}>
             Contact
             </Link>
           </li>
           <div className='flex flex-col items-center justify-center lg:flex-row gap-x-3'>
-          <Link href={`/aboutus`} className={styles.link}>
+          <Link href={`/`} className={styles.link}>
           Login
             </Link>
             <div className='border border-gray-400 h-[3vh]'></div>
-            <Link href={`/`} className={styles.link}>
-                <button className='bg-orange-400 text-white rounded px-2 py-2'>
+            <Link href={`/authpage`} className={styles.link}>
+                <button className='bg-orange text-white rounded px-2 py-2'>
                   Register</button>
               </Link>
           </div>

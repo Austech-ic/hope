@@ -22,7 +22,10 @@ module.exports = {
       fontFamily: {
         'arima': ['Arima Madurai', 'sans-serif'],
         'dn-sans': ['DN Sans', 'sans-serif'],
-      }
+      },
+      fontSize:{
+        tiny:'0.65rem',
+      },
     },
   },
   plugins: [],
