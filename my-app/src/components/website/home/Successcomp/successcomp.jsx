@@ -27,7 +27,7 @@ const Successcomp = () => {
          <p className='text-green text-2xl md:text-5xl lg:text-4xl xl:text-5xl font-bold'>Congratulations</p>
          <p className='text-xs text-center md:text-xl lg:text-lg xl:text-xl pt-5 md:pt-10 lg:pt-20 text-gray-600'>Kindly check your mail for login details</p>
          </div>
-         {/* <p>hffh</p> */}
+         
          
          
           

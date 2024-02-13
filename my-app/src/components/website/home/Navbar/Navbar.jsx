@@ -60,7 +60,7 @@ const Navbar = () => {
               </Link>
             </li>
       
-            <div className=' flex flex-col lg:flex-row md:pb-[20px] md:gap-[10px]'>
+            <div className=' flex flex-col items-center lg:flex-row md:pb-[20px] md:gap-[10px]'>
           <Link href={`/authpage`} className={styles.link}>
           Login
             </Link>

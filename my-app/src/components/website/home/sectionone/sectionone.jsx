@@ -48,7 +48,7 @@ const Sectionone = () => {
             <div className='p-5 md:p-8 lg:p-16'>
                 <p className='text-center font-arima text-2xl md:text-3xl lg:text-2xl xl:text-3xl font-medium'>Benefits of the  program</p>
 
-               <div className='p-5 md:p-20 lg:p-10 grid lg:grid-cols-3 md:gap-y-10 gap-x-10'>
+               <div className='p-5 md:p-20 lg:p-10 grid lg:grid-cols-3 gap-y-6 md:gap-y-10 gap-x-10'>
 
                <div className='flex flex-col items-center lg:items-start lg:flex-row  gap-4'>
                 <div className='bg-light rounded-full w-[50px] h-[50px] p-[14px] md:w-[100px] md:h-[100px] md:p-[25px] lg:w-[70px] lg:h-[70px] lg:p-[20px] flex  items-center justify-center'>
