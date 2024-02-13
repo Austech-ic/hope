@@ -1,0 +1,20 @@
+@tailwind base;
+
+/* Font import */
+@font-face {
+    font-family: 'Arima Madurai';
+    src: url('../components//Arima/Arima-VariableFont_wght.ttf') format('truetype');
+    /* Add other font formats (e.g., woff, woff2) if available */
+  }
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('../components/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf') format('truetype');
+    /* Add other font formats (e.g., woff, woff2) if available */
+}
+@tailwind components;
+
+
+@tailwind utilities;
+
+
+
