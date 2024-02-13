@@ -55,7 +55,7 @@ const DetailsTwo = () => {
                 </div></Link>
                
                 <div>
-                <button className='text-white bg-green px-4 py-1  md:px-8 md:py-2 rounded flex justify-center items-center gap-2 text-sm md:text-xl lg:text-base xl:text-sm'>Submit
+                <button className='text-white bg-green px-4 py-1  md:px-8 md:py-2 rounded flex justify-center items-center gap-2 text-sm md:text-xl lg:text-base xl:text-sm'><Link href={`/success`}>Submit</Link>
                 <FaArrowRight />
                 </button>
                 </div>

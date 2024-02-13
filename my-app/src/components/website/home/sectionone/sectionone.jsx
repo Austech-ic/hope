@@ -8,6 +8,7 @@ import { FaArrowRight } from "react-icons/fa6";
 import { BsHandbag } from "react-icons/bs";
 import { HiOutlineBell } from "react-icons/hi2";
 import { IoIosPeople } from "react-icons/io";
+import Link from 'next/link'
 
 
 const Sectionone = () => {
@@ -32,10 +33,12 @@ const Sectionone = () => {
                     <p className='text-base md:text-3xl lg:text-2xl xl:text-3xl leading-6 md:leading-10 lg:leading-9 xl:leading-10 font-semibold'>Training and <span className='text-green'>Empowerment</span> <br/> towards an eco-friendly environment</p>
                     <p className='pt-3 md:pt-5 xl:pt-6 text-gray-500 text-xs md:text-2xl lg:text-base xl:text-base leading-5 md:leading-9 lg:leading-7 xl:leading-7 font-dn-sans'>Empowering artisans through tech-enabled skills training, licensing, access to essential toolkits, and promoting industry standard excellence.</p>
                     <div className='pt-5 md:pt-8 lg:pt-10'>
-                        <button className='flex items-center gap-2 bg-green text-white text-sm md:text-2xl lg:text-lg xl:text-xl
+                       <Link href={`/authpage`}>
+                       <button className='flex items-center gap-2 bg-green text-white text-sm md:text-2xl lg:text-lg xl:text-xl
                          px-4 py-2 md:py-3 md:px-10 rounded font-dn-sans'>Get Started
                         <FaArrowRight />
                         </button>
+                       </Link>
                         </div>
                         <div className='pt-12 md:pt-20 lg:pt-24 xl:pt-52'>
                         <Image src={Text} alt='pic-image' className='w-[80%] lg:w-[90%]' />

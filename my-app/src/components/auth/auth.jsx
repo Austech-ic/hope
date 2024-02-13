@@ -21,7 +21,8 @@ const Auth = () => {
                                 placeholder='Enter BVN'
                                 className=' text-xs md:text-xl lg:text-base' 
                             />
-                            <button className='bg-orange text-white rounded px-2 h-[3vh] md:h-[4vh] text-xs md:text-xl lg:text-base'>Proceed</button>
+                          
+                           <button className='bg-orange text-white rounded px-2 h-[3vh] md:h-[4vh] text-xs md:text-xl lg:text-base'> <Link href={`/info`}>Proceed </Link></button>
                             
                         </div>
                     </div>
